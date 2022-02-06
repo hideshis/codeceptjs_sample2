@@ -6,7 +6,6 @@ services:
     volumes:
       - ./output:/output
       - ./tests:/tests
-      - ./output:/output
       - ./codecept.conf.js:/codecept.conf.js
       - ./steps_file.js:/steps_file.js
       - ./steps.d.ts:/steps.d.ts
