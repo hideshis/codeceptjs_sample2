@@ -7,6 +7,9 @@ exports.config = {
       show: false,
       windowSize: '1200x900',
       fullPageScreenshots: true,
+      chrome: {
+        args: ['--no-sandbox']
+      }
     }
   },
   include: {
