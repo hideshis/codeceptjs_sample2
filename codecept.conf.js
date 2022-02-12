@@ -18,5 +18,8 @@ exports.config = {
   bootstrap: null,
   mocha: {},
   name: 'codeceptjs_sample2',
-  translation: 'ja-JP'
+  translation: 'ja-JP',
+  plugins: {
+    allure: {}
+  }
 }
